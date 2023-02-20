@@ -1,0 +1,4 @@
+# B_Village
+* Mob :  //(name, pos, range, speed, HP, MP, atk, def, script - all level 1)
++ mob1 18 5 8 4 100 20 20 5
++ mob3 40 7 8 2 150 20 30 6

@@ -1,0 +1,15 @@
+# A_Village
+* NPC : //(name, pos, moving, speed, stat(HP, MP, atk, def - if not 0), script)
++ oldman 4 18 false 2 0
+-Hello young man
+-I used to be a powerful wizard. But now I'm too old for a fight
+-Recently there are a lot of monster show up in village
+-Can you help me protect the village
+* Mob :  //(name, pos, range, speed, HP, MP, atk, def, script - all level 1)
++ mob1 18 5 6 4 100 20 20 5
++ mob2 18 18 6 2 200 20 25 4
+* Obj : // (name, pos, interactType(collision 0, loot 1, interact 2), type, effectMass, effect)
++ boots 10 10 1 + 2 Speed
++ potion_red 4 3 1 + 20 MP
++ potion_red 5 3 1 + 50 HP
++ shield_blue 20 20 1 + 3 Defend
